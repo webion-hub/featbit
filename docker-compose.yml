@@ -3,7 +3,7 @@ services:
   ui:
     image: featbit/featbit-ui:latest
     environment:
-      - API_URL:$API_URL
+      - API_URL
     depends_on:
       - api-server
 
